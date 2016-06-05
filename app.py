@@ -13,8 +13,7 @@ from bokeh.embed import components
 
 #build the app
 app = Flask(__name__)
-#selector
-app.vars={}
+
 @app.route('/')
 def main():
   return redirect('/index')
